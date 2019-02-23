@@ -98,5 +98,5 @@ client.on('message',async message => {
     }, ms("1d"));
   }
 }); 
-client.login('NTEwMTI3MTI0OTEzMzI0MDQ5.D0YBcg.XTRwoBTghP0vPkBRQ2EsTXvfx3k');
+client.login(process.env.BOT_TOKEN);
 
